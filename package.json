@@ -1,0 +1,19 @@
+{
+  "name": "@ottofeller/aws-https-redirect",
+  "version": "0.0.1",
+  "description": "Force http > https redirect",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottofeller/aws-https-redirect.git"
+  },
+  "author": "https://ottofeller.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ottofeller/aws-https-redirect/issues"
+  },
+  "homepage": "https://github.com/ottofeller/aws-https-redirect#readme"
+}
