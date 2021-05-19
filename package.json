@@ -4,6 +4,8 @@
   "description": "Force http > https redirect",
   "main": "out/index.js",
   "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/ottofeller/aws-https-redirect/issues"
   },
-  "homepage": "https://github.com/ottofeller/aws-https-redirect#readme"
+  "homepage": "https://github.com/ottofeller/aws-https-redirect#readme",
+  "devDependencies": {
+    "@ottofeller/eslint-config-ottofeller": "0.8.3",
+    "@rollup/plugin-commonjs": "19.0.0",
+    "@rollup/plugin-node-resolve": "13.0.0",
+    "@rollup/plugin-typescript": "8.2.1",
+    "@types/node": "15.3.0",
+    "eslint": "7.26.0",
+    "rollup": "2.48.0",
+    "typescript": "4.2.4"
+  },
+  "eslintConfig": {
+    "extends": "@ottofeller/eslint-config-ottofeller"
+  },
+  "eslintIgnore": ["**/*.js"]
 }
