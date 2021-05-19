@@ -1,6 +1,6 @@
 {
   "name": "@ottofeller/aws-https-redirect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Force http > https redirect",
   "main": "out/index.js",
   "scripts": {
